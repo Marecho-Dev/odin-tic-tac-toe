@@ -1,0 +1,12 @@
+body,html{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ttt-grid{
+    display:grid;
+    grid-template-columns:repeat(3,200px);
+    grid-template-rows:repeat(3,200px);
+}
