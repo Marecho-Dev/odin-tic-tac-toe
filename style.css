@@ -4,6 +4,7 @@ body,html{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .ttt-grid{
     display:grid;
@@ -20,4 +21,8 @@ body,html{
     align-items:center;
     justify-content:center;
     font-size:3em;
+}
+
+#winner{
+    font-size: 5em;
 }
